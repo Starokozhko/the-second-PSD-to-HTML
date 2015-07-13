@@ -1,7 +1,6 @@
 body {
-	width: 100%;
+	width: 1350px;
 	height: 100%;
-	margin: 0 auto;
 	padding: 0;
 }
 .header {
@@ -9,23 +8,33 @@ body {
 	height: 100px;
 	background-color: #fff;
 }
-h2 {
+.header p {
 	font-family: 'Lobster', cursive;
 	color: #44c0c2;
 	font-size: 2.6em;
 	float: left;
 	margin: 22px 0 0 135px;
 }
-h3 {
+ b {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 3.9em;
 	color: #fff;
 	letter-spacing: 2px;
+	position: relative;
+	left: 204px;
+	top: 122px;
 }
 .top_center p {
 	font-family: 'Open Sans', sans-serif;
-	font-style: 30px;
 	color: #fff;
+	position: relative;
+	top: 150px;
+	left: 22px;
+	text-align: center;
+}
+p {
+	font-size: 1.5em;
+  	margin: -44px 0 0 -42px;
 }
 .header ul {
 	float: right;
@@ -42,7 +51,7 @@ h3 {
 .header a {
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
-	font-size: 0.89em;
+	font-size: 1.2em;
 	top: 42px;
 	width: 80px;
 	height: 100px;
@@ -60,25 +69,172 @@ h3 {
 }
 .top_fon {
 	background-image: url(../img/top_fon.jpg);
-	margin-top: 3px;
+	background-repeat: no-repeat; 
+	/*margin-top: 3px;*/
 	width: 100%;
 	height: 560px; 
 }
-.top_left {
+/*	.top_left {
 	height: 560px;
-	width: 50px;
+	width: 95px;
 	float: left;
+border: 1px solid green;*/
 }
 .top_center {
-	height: 560px;
+	height: 500px;
 	width: 1000px;
 	margin: 0 auto;
 	padding: 55px 0 0 150px; 
+/*	float: left;*/
 	border: 1px solid red;
 	text-align: center;
 }
-.top_right {
+/*.top_right {
 	height: 560px;
-	width: 50px;
+	width: 95px;
 	float: right;
+	border: 1px solid blue;
+}*/
+.bottom_top {
+	width: 230px;
+	height: 69px;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	margin: 211px 0 0 375px;
+}
+.bottom_top p {
+	position: relative;
+  	top: 17px;
+  	left: 0;
+}
+.back_botton {
+	margin: 250px 0 0 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.arrow_right {
+	width: 14px;
+	height: 26px;
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+  	top: 10px;
+}
+.arrow_left {
+	width: 14px;
+	height: 26px;
+	background-image: url(../img/right.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+  	top: 10px;
+  	left: -2px;
+  	-moz-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate180deg); 
+    transform: rotate(180deg);
+}
+.activities {
+	margin: 100px 0;
+}
+.icon_1 {
+	width: 105px;
+	height: 105px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	margin: 0 auto 45px;
+}
+.icon_2 {
+	width: 105px;
+	height: 105px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: 33.3% 0%;
+	left: -105px;
+	margin: 0 auto 45px;
+}
+.icon_3 {
+	width: 105px;
+	height: 105px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: 66.6% 0%;
+	left: -105px;
+	margin: 0 auto 45px;
+}
+.icon_4 {
+	width: 105px;
+	height: 105px;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	left: -105px;
+	margin: 0 auto 45px;
+}
+.activities	p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: #4e525d;
+}
+.activities p span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.52em;
+	text-align: center;
+}
+.center_but {
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+}
+.bg_dray {
+	width: 100%;
+	height: 1000px;
+	background-color: #f1f1f1;
+}
+.bg_dray p {
+	margin: 50px 0;
+	color: #4e525d;
+	font-size: 3em;
+	text-align: center;
+}
+.col-md-10 {
+	width: 100%;
+}
+.images {
+	margin-bottom: 30px;
+	width: 350px;
+	height: 297px;
+	background-image: url(../img/photo.jpg);
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	text-align: center;
+}
+#images_2 {
+	background-position: 50% 0;
+}
+#images_3 {
+	background-position: 100% 0;
+}
+#images_4 {
+	background-position: 0% 100%;
+}
+#images_5 {
+	background-position: 50% 100%;
+}
+#images_6 {
+	background-position: 100% 100%;
+}
+.aling_button {
+	width: 120px;
+	height: 40px;
+	margin: 0 auto;
+}
+.bord {
+	border: 1px solid red;
 }
