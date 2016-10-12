@@ -4,13 +4,18 @@
 	<meta charset="UTF-8">
 	<title>2 Sayt</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
+
 <body>
+
 	<div class="header">
 		<p>Author</p>
+		<span class="glyp"></span>
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Service</a></li>
@@ -23,18 +28,18 @@
 	<div class="top_fon">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-1 top_left">
+				<div class="col-md-1 col-sm-2 col-xs-3 top_left">
 					<div class="back_botton">
 						<div class="arrow_left">
 						</div>
 					</div>
 				</div>
-				<div class="col-md-10 top_center">
-					<b>This is a main heading</b>
+				<div class="col-md-10 col-sm-8 col-xs-6 top_center">
+					<h2>This is a main heading</h2>
 					<p>Lorem Ipsum is simply dummy text<br>of the printing</p>
-					<div class="bottom_top"><p>Learn More</p></div>
+					<div class="bottom_top"><a href="#">Learn More</a></div>
 				</div>
-				<div class="col-md-1 top_right">
+				<div class="col-md-1 col-sm-2 col-xs-3 top_right">
 					<div class="back_botton">
 						<div class="arrow_right">
 						</div>
@@ -47,7 +52,7 @@
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-10 activities">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 container-blocks">
 					<div class="icon_1"></div> 
 					<p>Custom Designs</p>
 					<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
@@ -55,7 +60,7 @@
 						<button type="button" class="btn btn-info">Read More</button>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 container-blocks">
 					<div class="icon_2"></div>
 					<p>Web Design</p>
 					<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
@@ -63,7 +68,7 @@
 						<button type="button" class="btn btn-info">Read More</button>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 container-blocks">
 					<div class="icon_3"></div>
 					<p>Blog Pages</p>
 					<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
@@ -71,7 +76,7 @@
 						<button type="button" class="btn btn-info">Read More</button>
 					</div>	
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 container-blocks">
 					<div class="icon_4"></div>
 					<p>Mobile friendly</p>
 					<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
@@ -88,40 +93,47 @@
 			<div class="row">
 				<p>Portfolio</p>
 
-					<div class="col-md-12">
-						<div class="col-md-4">
-							<div class="images" id="images_1">
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="images" id="images_2">
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="images" id="images_3">
-							</div>
+				<div class="col-md-12 portfolio">
+					<div class="col-md-4 col-sm-6 col-sx-10">
+						<div class="images" id="images_1">
+						<div class="blackWrap"></div>
 						</div>
 					</div>
-					<div class="col-md-12">
-						<div class="col-md-4">
-							<div class="images" id="images_4">
-							</div>
+					<div class="col-md-4 col-sm-6 col-sx-10">
+
+						<div class="images" id="images_2">
+						<div class="blackWrap"></div>
 						</div>
-						<div class="col-md-4">
-							<div class="images" id="images_5">
-							</div>
+						
+					</div>
+					<div class="col-md-4 col-sm-6 col-sx-10">
+						<div class="images" id="images_3">
+						<div class="blackWrap"></div>
 						</div>
-						<div class="col-md-4">
-							<div class="images" id="images_6">
-							</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-sx-10">
+						<div class="images" id="images_4">
+						<div class="blackWrap"></div>
 						</div>
-					</div> 
+					</div>
+					<div class="col-md-4 col-sm-6 col-sx-10">
+						<div class="images" id="images_5">
+						<div class="blackWrap"></div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-sx-10">
+						<div class="images" id="images_6">
+						<div class="blackWrap"></div>
+						</div>
+					</div>
+				</div> 
 				
 			</div>
 
-				<div class="aling_button">
-					<button type="button" class="btn btn-info">See all works</button>
-				</div>
+			<div class="aling_button">
+				<button type="button" class="btn btn-info">See all works</button>
+			</div>
 		</div>
 	</div>
 	<div class="teams">
@@ -130,33 +142,33 @@
 			<div class="row">
 				<div class="col-md-1"></div>
 				<div class="col-md-10 activities">
-					<div class="col-md-3">
-						<div class="circle"></div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="circle"><img src="img/photos/1.jpg" class="photos1" alt=""></div>
 						<div class="name_team">
 							<p>Adrian Thomas <br><span>CEO &amp; Founder</span></p>
 						</div> 
-						<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
+						<p class="aboutHim"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
 					</div>
-					<div class="col-md-3">
-						<div class="circle"></div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="circle"><img src="img/photos/2.jpg" class="photos2" alt=""></div>
 						<div class="name_team">
 							<p>Narate Ketram<br><span>Creative Director</span></p>
 						</div>
-						<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
+						<p class="aboutHim"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
 					</div>
-					<div class="col-md-3">
-						<div class="circle"></div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="circle"><img src="img/photos/3.jpg" class="photos3" alt=""></div>
 						<div class="name_team">
 							<p>Fernando Comet<br><span>CEO &amp; Founder</span></p>
 						</div>
-						<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>	
+						<p class="aboutHim"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>	
 					</div>
-					<div class="col-md-3">
-						<div class="circle"></div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="circle"><img src="img/photos/4.jpg" class="photos4" alt=""></div>
 						<div class="name_team">
 							<p>Adedayo saheed<br><span>Creative Director</span></p>
 						</div>
-						<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
+						<p class="aboutHim"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</span></p>
 					</div>
 				</div>
 				<div class="col-md-1"></div>
@@ -164,14 +176,20 @@
 		</div>
 	</div>
 	<div class="bg_dray_2">
-		<div class="container">
+		<div class="container paddingTop">
 			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-10">
-					<div class="col-md-4 rates">
-						<div class="title"><span>Basic</span></div>
-						<div class="count"><span>$5.01/ Month</span></div>
-						<div class="text_plans"><span>Lorem ipsum</div>
+				<div class="col-md-1 col-xs-2"></div>
+				<div class="col-md-10 col-xs-8">
+					<div class="col-md-4 col-xs-12 rates">
+						<div class="title">
+							<span>Basic</span>
+						</div>
+						<div class="count">
+							<span>$5.01/ Month</span>
+						</div>
+						<div class="text_plans">
+							<span>Lorem ipsum</span>
+						</div>
 						<div class="text_plans"><span>Dolor sit amet, consect</span></div>
 						<div class="text_plans"><span>Adipiscing elit</span></div>
 						<div class="text_plans"><span>Proin commodo turpis</span></div>
@@ -181,7 +199,7 @@
 							<button type="button" class="btn btn-gray">Buy now</button>
 						</div>
 					</div>
-					<div class="col-md-4 rates">
+					<div class="col-md-4 col-xs-12 rates">
 						<div class="title_pro"><span>Pro</span></div>
 						<div class="count"><span>$10.01/ Month</span></div>
 						<div class="text_plans"><span>Lorem ipsum</div>
@@ -194,7 +212,7 @@
 							<button type="button" class="btn btn-info gray">Buy now</button>
 						</div>
 					</div>
-					<div class="col-md-4 rates">
+					<div class="col-md-4 col-xs-12 rates">
 						<div class="title"><span>Premiun</span></div>
 						<div class="count"><span>$20.01/ Month</span></div>
 						<div class="text_plans"><span>Lorem ipsum</div>
@@ -208,73 +226,76 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-1"></div>
+				<div class="col-md-1 col-xs-2"></div>
 			</div>
 		</div>
 	</div>
 	<div class="testimonials">
 
-						<div class="wrapper">
-							<input type="radio" name="point" id="slide1" checked>
-							<input type="radio" name="point" id="slide2">
-							<input type="radio" name="point" id="slide3">
-							<div class="slider">
-								<div class="slides slide1">
-									<h2>What Clients Say</h2>
-									<br>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.<br><br><br><a>John Dove</a></p>
-								</div>
-								<div class="slides slide2">
-									<h2>What Clients Say 2</h2>
-									<br>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.<br><br><br><a>John Dove</a></p>
-								</div>
-								<div class="slides slide3">
-									<h2>What Clients Say 3</h2>
-									<br>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.<br><br><br><a>John Dove</a></p>
-								</div>
-							</div>	
-
-
-				<div class="controls">
-					<label for="slide1"></label>
-					<label for="slide2"></label>
-					<label for="slide3"></label>
+		<div class="wrapper">
+			<input type="radio" name="point" id="slide1" checked>
+			<input type="radio" name="point" id="slide2">
+			<input type="radio" name="point" id="slide3">
+			<div class="slider">
+				<div class="slides slide1">
+					<h2>What Clients Say</h2>
+					<br>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.<br><br><br><a>John Dove</a></p>
 				</div>
-</div>
+				<div class="slides slide2">
+					<h2>What Clients Say 2</h2>
+					<br>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.<br><br><br><a>John Dove</a></p>
+				</div>
+				<div class="slides slide3">
+					<h2>What Clients Say 3</h2>
+					<br>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 500s, when an unknown printer took a galley of type.<br><br><br><a>John Dove</a></p>
+				</div>
+			</div>	
+
+
+			<div class="controls">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+			</div>
+		</div>
 	</div>
 	<div class="bottom_fon">
 		<h2>Contact Us</h2>
 		<div class="wrap">
 			<div class="col-md-1 bord"></div>
-			<div class="col-md-5 ">
+			<div class="col-md-5 col-sm-6 col-xs-12 contact">
 				<p>Get in touch with us<br>
-				<span>Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's </span></p><br>
-				<div class="social_link">
-					<div id="social"></div>
-					<div id="social2"></div>
-					<div id="social3"></div>
+					<span>Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's </span></p><br>
+					<div class="social_link">
+						<div id="social"></div>
+						<div id="social2"></div>
+						<div id="social3"></div>
+					</div>
+					<div class="contacts">
+						<p>Posted by Dospel &amp;GanjaParker</p>
+						<p>+XX-XXXX - XXXX - XX</p>
+						<p>info@mail.com</p>
+					</div>
 				</div>
-				<div class="contacts">
-					<p>Posted by Dospel &amp;GanjaParker</p>
-					<p>+XX-XXXX - XXXX - XX</p>
-					<p>info@mail.com</p>
+				<div class="col-md-5 col-sm-6 col-xs-12 contact-form">
+					<div class="contact_input">
+						<input type="text" id="name" name="name" placeholder
+						="Name">
+						<input type="text" id="e-mail" name="e-mail" placeholder
+						="E-mail">
+						<textarea rows=""  id="text" name="text" placeholder
+						="Message"></textarea>
+						<input type="submit" class="btn btn-info" id="input_btn" value="Send">
+					</div>
 				</div>
+				<div class="col-md-1 bord"></div>
 			</div>
-			<div class="col-md-5">
-				<div class="contact_input">
-					<input type="text" id="name" name="name" placeholder
-	="Name">
-					<input type="text" id="e-mail" name="e-mail" placeholder
-	="E-mail">
-					<textarea rows=""  id="text" name="text" placeholder
-	="Message"></textarea>
-					<input type="submit" class="btn btn-info" id="input_btn" value="Send">
-				</div>
-			</div>
-			<div class="col-md-1 bord"></div>
-		</div>
-	</div>	
-</body>
-</html>
+		</div>	
+
+
+		<script src="js/script.js"></script>
+	</body>
+	</html>
